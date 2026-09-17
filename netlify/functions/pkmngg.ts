@@ -66,8 +66,6 @@ const getProfileData = async (username: string, buildId:string): Promise<UserSta
          throw new Error("No hay datos globales del perfil");
     }
 
-    console.log(globalStats)
-
     return {
         category: globalStats.category,        
         uniqueCardCount : globalStats.uniqueCardCount,
