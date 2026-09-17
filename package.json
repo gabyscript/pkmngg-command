@@ -1,0 +1,26 @@
+{
+  "name": "pkmn-gg-command",
+  "version": "1.0.0",
+  "description": "pkmn.gg command integration for twitch",
+  "homepage": "https://github.com/gabyscript/pkmngg-command#readme",
+  "bugs": {
+    "url": "https://github.com/gabyscript/pkmngg-command/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabyscript/pkmngg-command.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.0",
+    "@types/node": "^22.20.3",
+    "netlify-cli": "^27.8.0",
+    "typescript": "^7.0.2"
+  }
+}
