@@ -76,8 +76,8 @@ const getProfileData = async (username: string, buildId:string): Promise<UserSta
     
 }
 
-const formatMessage = (stats:UserStats) => {
-    return `Cartas totales: ${stats.uniqueCardCount} | Valor de la colección: $${stats.collectionValue} | Perfil: https://www.pkmn.gg/u/gabyranma`
+const formatMessage = (stats:UserStats) :string => {
+    return `Cartas totales: ${stats.uniqueCardCount} | Valor de la colección: $${stats.collectionValue} | Perfil: https://www.pkmn.gg/u/gabyranma |` 
 }
 
 export default async (req:Request) => {
